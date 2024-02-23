@@ -1,0 +1,28 @@
+key,value
+source_filepath,"/root/airflow/airflow/data/employee.csv"
+mysnowflakeconn_warehouse,DATA_LOAD
+
+/****************** Please update your user name and password****************/
+
+mysnowflakeconn_userPassword_userId,ABDJMK94
+mysnowflakeconn_userPassword_password,Jmk7028233%
+
+
+mysnowflakeconn_tracing,OFF
+mysnowflakeconn_schemaName,PUBLIC
+mysnowflakeconn_role,ACCOUNTADMIN
+mysnowflakeconn_region,AWS_US_EAST_1
+mysnowflakeconn_loginTimeout,15
+mysnowflakeconn_db,DEMO_DB
+
+/****************** Please change region and account by checking your account url **************/
+/****************** Mine is https://nna57737.us-east-1.snowflakecomputing.com/ *****************/
+
+mysnowflakeconn_customRegionID,vm16438
+mysnowflakeconn_account,mteudev.vm16438
+
+/********************* Do not change unless you don't want to point to your git location *******/
+
+gitrepo,pradeepetl/Talend.git
+tempfolder,/tmp/
+Gittoken,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

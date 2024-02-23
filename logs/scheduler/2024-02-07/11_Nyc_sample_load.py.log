@@ -1,0 +1,434 @@
+[2024-02-07T08:48:35.953+0000] {processor.py:161} INFO - Started process (PID=595) to work on /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:48:35.953+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/11_Nyc_sample_load.py for tasks to queue
+[2024-02-07T08:48:35.955+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:48:35.954+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:48:35.958+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:48:35.957+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/11_Nyc_sample_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/11_Nyc_sample_load.py", line 25, in <module>
+    import Task_builder
+ModuleNotFoundError: No module named 'Task_builder'
+[2024-02-07T08:48:35.958+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:48:35.978+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/11_Nyc_sample_load.py took 0.028 seconds
+[2024-02-07T08:49:06.980+0000] {processor.py:161} INFO - Started process (PID=662) to work on /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:49:06.982+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/11_Nyc_sample_load.py for tasks to queue
+[2024-02-07T08:49:06.987+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:49:06.987+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:49:06.994+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:49:06.993+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/11_Nyc_sample_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/11_Nyc_sample_load.py", line 25, in <module>
+    import Task_builder
+ModuleNotFoundError: No module named 'Task_builder'
+[2024-02-07T08:49:06.995+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:49:07.027+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/11_Nyc_sample_load.py took 0.051 seconds
+[2024-02-07T08:49:37.232+0000] {processor.py:161} INFO - Started process (PID=728) to work on /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:49:37.234+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/11_Nyc_sample_load.py for tasks to queue
+[2024-02-07T08:49:37.238+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:49:37.238+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:49:37.242+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:49:37.242+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/11_Nyc_sample_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/11_Nyc_sample_load.py", line 25, in <module>
+    import Task_builder
+ModuleNotFoundError: No module named 'Task_builder'
+[2024-02-07T08:49:37.243+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:49:37.269+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/11_Nyc_sample_load.py took 0.041 seconds
+[2024-02-07T08:50:07.454+0000] {processor.py:161} INFO - Started process (PID=794) to work on /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:50:07.455+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/11_Nyc_sample_load.py for tasks to queue
+[2024-02-07T08:50:07.457+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:50:07.457+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:50:07.461+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:50:07.460+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/11_Nyc_sample_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/11_Nyc_sample_load.py", line 25, in <module>
+    import Task_builder
+ModuleNotFoundError: No module named 'Task_builder'
+[2024-02-07T08:50:07.461+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:50:07.481+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/11_Nyc_sample_load.py took 0.030 seconds
+[2024-02-07T08:50:38.342+0000] {processor.py:161} INFO - Started process (PID=860) to work on /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:50:38.343+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/11_Nyc_sample_load.py for tasks to queue
+[2024-02-07T08:50:38.345+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:50:38.345+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:50:38.348+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:50:38.348+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/11_Nyc_sample_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/11_Nyc_sample_load.py", line 25, in <module>
+    import Task_builder
+ModuleNotFoundError: No module named 'Task_builder'
+[2024-02-07T08:50:38.349+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:50:38.368+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/11_Nyc_sample_load.py took 0.029 seconds
+[2024-02-07T08:51:09.066+0000] {processor.py:161} INFO - Started process (PID=926) to work on /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:51:09.067+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/11_Nyc_sample_load.py for tasks to queue
+[2024-02-07T08:51:09.070+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:51:09.069+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:51:09.072+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:51:09.072+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/11_Nyc_sample_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/11_Nyc_sample_load.py", line 25, in <module>
+    import Task_builder
+ModuleNotFoundError: No module named 'Task_builder'
+[2024-02-07T08:51:09.073+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:51:09.091+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/11_Nyc_sample_load.py took 0.027 seconds
+[2024-02-07T08:51:40.049+0000] {processor.py:161} INFO - Started process (PID=992) to work on /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:51:40.051+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/11_Nyc_sample_load.py for tasks to queue
+[2024-02-07T08:51:40.053+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:51:40.053+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:51:40.056+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:51:40.055+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/11_Nyc_sample_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/11_Nyc_sample_load.py", line 25, in <module>
+    import Task_builder
+ModuleNotFoundError: No module named 'Task_builder'
+[2024-02-07T08:51:40.056+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:51:40.074+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/11_Nyc_sample_load.py took 0.028 seconds
+[2024-02-07T08:52:10.241+0000] {processor.py:161} INFO - Started process (PID=1058) to work on /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:52:10.243+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/11_Nyc_sample_load.py for tasks to queue
+[2024-02-07T08:52:10.246+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:52:10.245+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:52:10.249+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:52:10.248+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/11_Nyc_sample_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/11_Nyc_sample_load.py", line 25, in <module>
+    import Task_builder
+ModuleNotFoundError: No module named 'Task_builder'
+[2024-02-07T08:52:10.249+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:52:10.271+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/11_Nyc_sample_load.py took 0.034 seconds
+[2024-02-07T08:52:40.401+0000] {processor.py:161} INFO - Started process (PID=1124) to work on /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:52:40.403+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/11_Nyc_sample_load.py for tasks to queue
+[2024-02-07T08:52:40.405+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:52:40.405+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:52:40.408+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:52:40.408+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/11_Nyc_sample_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/11_Nyc_sample_load.py", line 25, in <module>
+    import Task_builder
+ModuleNotFoundError: No module named 'Task_builder'
+[2024-02-07T08:52:40.408+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:52:40.427+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/11_Nyc_sample_load.py took 0.028 seconds
+[2024-02-07T08:53:11.289+0000] {processor.py:161} INFO - Started process (PID=1190) to work on /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:53:11.291+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/11_Nyc_sample_load.py for tasks to queue
+[2024-02-07T08:53:11.293+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:53:11.292+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:53:11.296+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:53:11.295+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/11_Nyc_sample_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/11_Nyc_sample_load.py", line 25, in <module>
+    import Task_builder
+ModuleNotFoundError: No module named 'Task_builder'
+[2024-02-07T08:53:11.296+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:53:11.314+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/11_Nyc_sample_load.py took 0.027 seconds
+[2024-02-07T08:53:41.570+0000] {processor.py:161} INFO - Started process (PID=1256) to work on /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:53:41.571+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/11_Nyc_sample_load.py for tasks to queue
+[2024-02-07T08:53:41.573+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:53:41.572+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:53:41.576+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:53:41.575+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/11_Nyc_sample_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/11_Nyc_sample_load.py", line 25, in <module>
+    import Task_builder
+ModuleNotFoundError: No module named 'Task_builder'
+[2024-02-07T08:53:41.576+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:53:41.597+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/11_Nyc_sample_load.py took 0.030 seconds
+[2024-02-07T08:54:12.635+0000] {processor.py:161} INFO - Started process (PID=1322) to work on /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:54:12.636+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/11_Nyc_sample_load.py for tasks to queue
+[2024-02-07T08:54:12.638+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:54:12.638+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:54:12.641+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:54:12.640+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/11_Nyc_sample_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/11_Nyc_sample_load.py", line 25, in <module>
+    import Task_builder
+ModuleNotFoundError: No module named 'Task_builder'
+[2024-02-07T08:54:12.641+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:54:12.662+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/11_Nyc_sample_load.py took 0.030 seconds
+[2024-02-07T08:54:43.680+0000] {processor.py:161} INFO - Started process (PID=1388) to work on /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:54:43.681+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/11_Nyc_sample_load.py for tasks to queue
+[2024-02-07T08:54:43.683+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:54:43.683+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:54:43.686+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:54:43.685+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/11_Nyc_sample_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/11_Nyc_sample_load.py", line 25, in <module>
+    import Task_builder
+ModuleNotFoundError: No module named 'Task_builder'
+[2024-02-07T08:54:43.686+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:54:43.705+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/11_Nyc_sample_load.py took 0.028 seconds
+[2024-02-07T08:55:13.906+0000] {processor.py:161} INFO - Started process (PID=1454) to work on /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:55:13.908+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/11_Nyc_sample_load.py for tasks to queue
+[2024-02-07T08:55:13.909+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:55:13.909+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:55:13.912+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:55:13.912+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/11_Nyc_sample_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/11_Nyc_sample_load.py", line 25, in <module>
+    import Task_builder
+ModuleNotFoundError: No module named 'Task_builder'
+[2024-02-07T08:55:13.913+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:55:13.932+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/11_Nyc_sample_load.py took 0.028 seconds
+[2024-02-07T08:55:44.017+0000] {processor.py:161} INFO - Started process (PID=1520) to work on /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:55:44.018+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/11_Nyc_sample_load.py for tasks to queue
+[2024-02-07T08:55:44.020+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:55:44.020+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:55:44.023+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:55:44.022+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/11_Nyc_sample_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/11_Nyc_sample_load.py", line 25, in <module>
+    import Task_builder
+ModuleNotFoundError: No module named 'Task_builder'
+[2024-02-07T08:55:44.023+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:55:44.046+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/11_Nyc_sample_load.py took 0.031 seconds
+[2024-02-07T08:56:14.334+0000] {processor.py:161} INFO - Started process (PID=1586) to work on /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:56:14.335+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/11_Nyc_sample_load.py for tasks to queue
+[2024-02-07T08:56:14.337+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:56:14.336+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:56:14.340+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:56:14.339+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/11_Nyc_sample_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/11_Nyc_sample_load.py", line 25, in <module>
+    import Task_builder
+ModuleNotFoundError: No module named 'Task_builder'
+[2024-02-07T08:56:14.340+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:56:14.360+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/11_Nyc_sample_load.py took 0.029 seconds
+[2024-02-07T08:56:44.640+0000] {processor.py:161} INFO - Started process (PID=1653) to work on /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:56:44.641+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/11_Nyc_sample_load.py for tasks to queue
+[2024-02-07T08:56:44.643+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:56:44.643+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:56:44.648+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:56:44.646+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/11_Nyc_sample_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/11_Nyc_sample_load.py", line 25, in <module>
+    import Task_builder
+ModuleNotFoundError: No module named 'Task_builder'
+[2024-02-07T08:56:44.648+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:56:44.674+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/11_Nyc_sample_load.py took 0.038 seconds
+[2024-02-07T08:57:14.928+0000] {processor.py:161} INFO - Started process (PID=1719) to work on /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:57:14.929+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/11_Nyc_sample_load.py for tasks to queue
+[2024-02-07T08:57:14.931+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:57:14.931+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:57:14.934+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:57:14.933+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/11_Nyc_sample_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/11_Nyc_sample_load.py", line 25, in <module>
+    import Task_builder
+ModuleNotFoundError: No module named 'Task_builder'
+[2024-02-07T08:57:14.934+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:57:14.956+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/11_Nyc_sample_load.py took 0.031 seconds
+[2024-02-07T08:57:45.035+0000] {processor.py:161} INFO - Started process (PID=1785) to work on /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:57:45.037+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/11_Nyc_sample_load.py for tasks to queue
+[2024-02-07T08:57:45.038+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:57:45.038+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:57:45.042+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:57:45.041+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/11_Nyc_sample_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/11_Nyc_sample_load.py", line 25, in <module>
+    import Task_builder
+ModuleNotFoundError: No module named 'Task_builder'
+[2024-02-07T08:57:45.043+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:57:45.061+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/11_Nyc_sample_load.py took 0.029 seconds
+[2024-02-07T08:58:16.107+0000] {processor.py:161} INFO - Started process (PID=1851) to work on /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:58:16.109+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/11_Nyc_sample_load.py for tasks to queue
+[2024-02-07T08:58:16.110+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:58:16.110+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:58:16.113+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:58:16.112+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/11_Nyc_sample_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/11_Nyc_sample_load.py", line 25, in <module>
+    import Task_builder
+ModuleNotFoundError: No module named 'Task_builder'
+[2024-02-07T08:58:16.113+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:58:16.133+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/11_Nyc_sample_load.py took 0.028 seconds
+[2024-02-07T08:58:46.953+0000] {processor.py:161} INFO - Started process (PID=1917) to work on /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:58:46.954+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/11_Nyc_sample_load.py for tasks to queue
+[2024-02-07T08:58:46.955+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:58:46.955+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:58:46.959+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:58:46.958+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/11_Nyc_sample_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/11_Nyc_sample_load.py", line 25, in <module>
+    import Task_builder
+ModuleNotFoundError: No module named 'Task_builder'
+[2024-02-07T08:58:46.959+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:58:46.977+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/11_Nyc_sample_load.py took 0.027 seconds
+[2024-02-07T08:59:17.924+0000] {processor.py:161} INFO - Started process (PID=1983) to work on /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:59:17.925+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/11_Nyc_sample_load.py for tasks to queue
+[2024-02-07T08:59:17.927+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:59:17.927+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:59:17.930+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:59:17.929+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/11_Nyc_sample_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/11_Nyc_sample_load.py", line 25, in <module>
+    import Task_builder
+ModuleNotFoundError: No module named 'Task_builder'
+[2024-02-07T08:59:17.930+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:59:17.949+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/11_Nyc_sample_load.py took 0.028 seconds
+[2024-02-07T08:59:48.802+0000] {processor.py:161} INFO - Started process (PID=2049) to work on /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:59:48.803+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/11_Nyc_sample_load.py for tasks to queue
+[2024-02-07T08:59:48.805+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:59:48.805+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:59:48.808+0000] {logging_mixin.py:188} INFO - [2024-02-07T08:59:48.808+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/11_Nyc_sample_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/11_Nyc_sample_load.py", line 25, in <module>
+    import Task_builder
+ModuleNotFoundError: No module named 'Task_builder'
+[2024-02-07T08:59:48.809+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T08:59:48.829+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/11_Nyc_sample_load.py took 0.030 seconds
+[2024-02-07T09:00:18.892+0000] {processor.py:161} INFO - Started process (PID=2115) to work on /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T09:00:18.894+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/11_Nyc_sample_load.py for tasks to queue
+[2024-02-07T09:00:18.895+0000] {logging_mixin.py:188} INFO - [2024-02-07T09:00:18.895+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T09:00:18.899+0000] {logging_mixin.py:188} INFO - [2024-02-07T09:00:18.898+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/11_Nyc_sample_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/11_Nyc_sample_load.py", line 25, in <module>
+    import Task_builder
+ModuleNotFoundError: No module named 'Task_builder'
+[2024-02-07T09:00:18.899+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T09:00:18.924+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/11_Nyc_sample_load.py took 0.035 seconds
+[2024-02-07T09:00:49.096+0000] {processor.py:161} INFO - Started process (PID=2181) to work on /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T09:00:49.097+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/11_Nyc_sample_load.py for tasks to queue
+[2024-02-07T09:00:49.099+0000] {logging_mixin.py:188} INFO - [2024-02-07T09:00:49.099+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T09:00:49.102+0000] {logging_mixin.py:188} INFO - [2024-02-07T09:00:49.101+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/11_Nyc_sample_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/11_Nyc_sample_load.py", line 25, in <module>
+    import Task_builder
+ModuleNotFoundError: No module named 'Task_builder'
+[2024-02-07T09:00:49.102+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T09:00:49.121+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/11_Nyc_sample_load.py took 0.027 seconds
+[2024-02-07T09:01:19.187+0000] {processor.py:161} INFO - Started process (PID=2247) to work on /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T09:01:19.189+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/11_Nyc_sample_load.py for tasks to queue
+[2024-02-07T09:01:19.190+0000] {logging_mixin.py:188} INFO - [2024-02-07T09:01:19.190+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T09:01:19.193+0000] {logging_mixin.py:188} INFO - [2024-02-07T09:01:19.192+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/11_Nyc_sample_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/11_Nyc_sample_load.py", line 25, in <module>
+    import Task_builder
+ModuleNotFoundError: No module named 'Task_builder'
+[2024-02-07T09:01:19.193+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T09:01:19.211+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/11_Nyc_sample_load.py took 0.027 seconds
+[2024-02-07T09:01:50.118+0000] {processor.py:161} INFO - Started process (PID=2313) to work on /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T09:01:50.120+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/11_Nyc_sample_load.py for tasks to queue
+[2024-02-07T09:01:50.121+0000] {logging_mixin.py:188} INFO - [2024-02-07T09:01:50.121+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T09:01:50.124+0000] {logging_mixin.py:188} INFO - [2024-02-07T09:01:50.123+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/11_Nyc_sample_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/11_Nyc_sample_load.py", line 25, in <module>
+    import Task_builder
+ModuleNotFoundError: No module named 'Task_builder'
+[2024-02-07T09:01:50.124+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T09:01:50.143+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/11_Nyc_sample_load.py took 0.028 seconds
+[2024-02-07T09:02:20.301+0000] {processor.py:161} INFO - Started process (PID=2379) to work on /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T09:02:20.302+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/11_Nyc_sample_load.py for tasks to queue
+[2024-02-07T09:02:20.303+0000] {logging_mixin.py:188} INFO - [2024-02-07T09:02:20.303+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T09:02:20.306+0000] {logging_mixin.py:188} INFO - [2024-02-07T09:02:20.306+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/11_Nyc_sample_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/11_Nyc_sample_load.py", line 25, in <module>
+    import Task_builder
+ModuleNotFoundError: No module named 'Task_builder'
+[2024-02-07T09:02:20.306+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T09:02:20.325+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/11_Nyc_sample_load.py took 0.027 seconds
+[2024-02-07T09:02:51.095+0000] {processor.py:161} INFO - Started process (PID=2445) to work on /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T09:02:51.097+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/11_Nyc_sample_load.py for tasks to queue
+[2024-02-07T09:02:51.098+0000] {logging_mixin.py:188} INFO - [2024-02-07T09:02:51.098+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T09:02:51.102+0000] {logging_mixin.py:188} INFO - [2024-02-07T09:02:51.101+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/11_Nyc_sample_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/11_Nyc_sample_load.py", line 25, in <module>
+    import Task_builder
+ModuleNotFoundError: No module named 'Task_builder'
+[2024-02-07T09:02:51.102+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T09:02:51.120+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/11_Nyc_sample_load.py took 0.028 seconds
+[2024-02-07T09:03:22.076+0000] {processor.py:161} INFO - Started process (PID=2511) to work on /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T09:03:22.077+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/11_Nyc_sample_load.py for tasks to queue
+[2024-02-07T09:03:22.079+0000] {logging_mixin.py:188} INFO - [2024-02-07T09:03:22.079+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T09:03:22.083+0000] {logging_mixin.py:188} INFO - [2024-02-07T09:03:22.082+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/11_Nyc_sample_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/11_Nyc_sample_load.py", line 25, in <module>
+    import Task_builder
+ModuleNotFoundError: No module named 'Task_builder'
+[2024-02-07T09:03:22.083+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T09:03:22.103+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/11_Nyc_sample_load.py took 0.030 seconds
+[2024-02-07T09:03:52.993+0000] {processor.py:161} INFO - Started process (PID=2583) to work on /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T09:03:52.994+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/11_Nyc_sample_load.py for tasks to queue
+[2024-02-07T09:03:52.995+0000] {logging_mixin.py:188} INFO - [2024-02-07T09:03:52.995+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T09:03:52.998+0000] {logging_mixin.py:188} INFO - [2024-02-07T09:03:52.997+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/11_Nyc_sample_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/11_Nyc_sample_load.py", line 25, in <module>
+    import Task_builder
+ModuleNotFoundError: No module named 'Task_builder'
+[2024-02-07T09:03:52.998+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/11_Nyc_sample_load.py
+[2024-02-07T09:03:53.016+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/11_Nyc_sample_load.py took 0.026 seconds
